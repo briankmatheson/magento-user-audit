@@ -165,7 +165,7 @@ mariadb:
       ##   set, choosing the default provisioner.  (gp2 on AWS, standard on
       ##   GKE, AWS & OpenStack)
       ##
-      storageClass: "cstor"
+      storageClass: "cstor-3r"
       accessMode: ReadWriteOnce
       size: 8Gi
 
